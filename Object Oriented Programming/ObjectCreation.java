@@ -18,4 +18,4 @@ class ObjectCreation
   }
 }
 
-/* Excepted Output : Hello I am in new Class */
+/* Expected Output : Hello I am in new Class */

@@ -9,4 +9,4 @@ class Addition
   }
 }
 
-/* Excepted output : The addition is : 15   */
+/* Expected output : The addition is : 15   */

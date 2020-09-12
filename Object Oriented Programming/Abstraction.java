@@ -32,6 +32,6 @@ public class Abstraction
   }
 }
 
-/* Excepted output : 
+/* Expected output : 
                       Addition : 30
                       Substraction : -10     */

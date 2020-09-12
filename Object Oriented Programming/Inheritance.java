@@ -27,6 +27,6 @@ class Inheritance
   }
 }
 
-/* Excepted output : 
+/* Expected output : 
                     I am in B class.
                     I am in A class.  */

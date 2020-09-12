@@ -1,32 +1,33 @@
 // This program shows the use of inheritance.
 
-class A
+class Human
 {
-  void a_method()
+  void eating()
   {
-    System.out.println("I am in A class");
+    System.out.println("I am eating.");
   }
 }
 
-class B extends A
+class Student extends Human
 {
-  void b_method()
+  void reading()
   {
-    System.out.println("I am in B class");
+    System.out.println("I am reading.");
   }
 }
 
-class Inheritance
+public class Inheritance
 {
   public static void main(String args[])
   {
-    B b_obj = new B();
+    Student stud_obj = new Student();
     
-    b_obj.b_method();  // Accessing the method of B class.
-    b_obj.a_method();  // Accessing the method of A class.
+    stud_obj.reading();  // Accessing the method of Student class.
+    stud_obj.eating();  // Accessing the method of Human class.
+    
   }
 }
 
 /* Expected output : 
-                    I am in B class.
-                    I am in A class.  */
+                    I am in reading.
+                    I am in eating.  */
